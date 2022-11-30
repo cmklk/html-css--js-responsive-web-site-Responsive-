@@ -1,0 +1,1141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+#icon {
+  display: none;
+}
+
+#close_button {
+  display: none;
+}
+
+/*logo code start*/
+.container_logo {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container_logo h3 {
+  padding: 6px 11px;
+  color: rgb(255, 0, 255);
+  background-color: rgb(213, 213, 213);
+  display: inline-block;
+  margin: 20px 0;
+  border-radius: 8px;
+  font-size: 25px;
+}
+
+.menu {
+  width: 900px;
+  margin: 0px 0 10px 0;
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+}
+
+.menu li {
+  padding: 10px 12px;
+}
+
+.menu li a {
+  color: #fff;
+}
+
+/*logo code finish*/
+
+.application_design1 {
+  background-color: rgb(0, 0, 74);
+  height: 400px;
+  margin-bottom: 200px;
+}
+
+/*design start code*/
+.application_design {
+  background-color: rgb(0, 0, 74);
+  padding: 20px 0;
+  height: auto;
+  margin-bottom: 90px;
+  margin-top: 100px;
+}
+
+.container_design {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+  height: 100%;
+}
+.design_left {
+  margin-right: 20px;
+}
+.design_left h3 {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.design_left h5 {
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.design_left h4 {
+  color: rgb(255, 0, 255);
+  margin-bottom: 13px;
+  letter-spacing: 0.4px;
+}
+
+.design_left .design_button {
+  padding: 7px 24px;
+  background-color: #fff;
+  color: #000;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.designs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.design_right {
+  background-color: rgb(177, 31, 160);
+  transform: translateY(-60px);
+  height: 800px;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.design_right .img {
+  margin: 0 auto;
+}
+.design_right .img img {
+  height: 450px;
+  width: 400px;
+}
+
+/*design finish code*/
+
+/*features code start*/
+.features-header {
+  font-size: 26px;
+  color: rgb(0, 0, 74);
+  margin-bottom: 35px;
+}
+
+.features-header span {
+  font-size: 25px;
+  color: rgb(255, 0, 255);
+}
+
+.features-paragraph {
+  font-size: 14px;
+  color: rgb(110, 110, 110);
+  margin-bottom: 40px;
+  width: 700px;
+}
+
+.features_img .imgg {
+  height: 400px;
+  width: 500px;
+  margin-bottom: 40px;
+}
+
+.features_button {
+  padding: 9px 30px;
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 50px;
+  transition: 0.5s all ease;
+}
+
+.features_button:hover {
+  background-color: orange;
+  border-radius: 5px;
+}
+/*features code finish*/
+
+/*application code start*/
+.application {
+  background-color: rgb(0, 0, 74);
+}
+
+.pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightPage .phone_img {
+  height: 400px;
+  width: 600px;
+}
+
+.application_container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+}
+
+.left_page .application_header {
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 0.3px;
+}
+
+.span_text {
+  color: rgb(255, 0, 255);
+}
+
+.properties {
+  margin-bottom: 20px;
+}
+.propertiesOne {
+  display: flex;
+  align-items: center;
+}
+
+.propertiesOne .one {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #fff;
+  color: rgb(255, 0, 255);
+  border-radius: 50%;
+  margin: 6px 13px 6px 0;
+}
+
+.oneText {
+  color: #fff;
+}
+
+.properties_paragraph {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 13px;
+}
+
+.readMoreButton {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 25px;
+}
+/*application code finish*/
+
+/*customer code start*/
+.swiper-slide .container .customer_header {
+  margin-bottom: 20px;
+}
+.swiper-slide .container .customer_header,
+span {
+  color: rgb(0, 0, 74);
+  font-size: 30px;
+  letter-spacing: 0.3px;
+}
+
+.swiper-slide .container .customer_header span {
+  color: rgb(255, 0, 255);
+}
+
+.swiper-slide .container .customer_content {
+  color: rgb(53, 53, 53);
+  font-size: 16px;
+}
+
+.swiper-slide .container .customer_paragraph {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  padding: 55px 35px;
+  text-align: justify;
+  position: relative;
+  font-size: 14px;
+}
+
+.customer .container .customer_paragraph::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  left: 40px;
+  bottom: -20px;
+  transform: rotate(-45deg);
+}
+.customer_icon_tirnak {
+  background-color: rgb(0, 0, 74);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  padding: 0 20px;
+}
+
+.customer_name_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customer_icon_tirnak .persons_img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.customer_name_image .person_name {
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.customer_icon_tirnak .tirnak {
+  font-size: 220px;
+  color: white;
+  transform: translateY(-20px);
+}
+
+.spans {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.spans span {
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+  border-radius: 50%;
+  margin: 10px 3px 0 3px;
+}
+
+.spans span:nth-child(2) {
+  background-color: rgb(255, 0, 255);
+}
+/*customer code finish*/
+
+/*call code start*/
+.callback {
+  background-color: rgb(243, 233, 255);
+  padding: 30px 0 30px 0;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+}
+
+.container .call_header {
+  color: rgb(0, 0, 74);
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.container .call_header span {
+  color: rgb(255, 0, 255);
+}
+
+.call_paragraph {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.container .telephone_numberIcon {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.container .telephone_numberIcon i,
+span {
+  font-size: 30px;
+  font-weight: bold;
+}
+/*call code finish*/
+
+/*footer code start*/
+
+.footer {
+  background-color: rgb(0, 0, 74);
+  padding: 30px;
+}
+
+.container_footer {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  color: #fff;
+}
+
+.container_footer .header {
+  margin-bottom: 31px;
+  font-weight: bold;
+  word-spacing: 3px;
+  letter-spacing: 0.3px;
+}
+
+.container_footer .footer_paragraph {
+  font-size: 15px;
+  font-weight: 400;
+  width: 70%;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.container_footer .social_icons i {
+  padding: 10px 12px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  margin: 5px 10px;
+}
+
+/*footer code finish*/
+
+.copyright {
+  background-color: rgb(241, 241, 241);
+  padding: 24px;
+}
+.copyright_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright_text {
+  font-size: 13px;
+  color: rgb(58, 58, 58);
+  font-weight: 500;
+}
+/*responsive code start*/
+@media screen and (max-width: 1200px) {
+  #icon {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    margin-top: 400px;
+    right: -400px;
+    height: 200%;
+    width: 400px;
+    color: #fff;
+    background-color: orange;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1000;
+    transition: 0.5s all ease;
+  }
+
+  #close_button {
+    font-size: 40px;
+    position: absolute;
+    left: 40px;
+    cursor: pointer;
+    display: block;
+  }
+  .show {
+    right: 0;
+  }
+
+  #icon:hover {
+    color: orange;
+  }
+
+  .container_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /*design start code*/
+  .application {
+    padding: 50px 0;
+    height: 500px;
+  }
+
+  .design_left {
+    text-align: center;
+  }
+
+  .design_left h3 {
+    font-size: 30px;
+  }
+
+  .design_left h5 {
+    font-size: 21px;
+  }
+
+  .design_left h4 {
+    font-size: 20px;
+  }
+
+  .design_left .design_button {
+    padding: 6px 20px;
+    font-size: 12px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    transition: 0.5s all ease;
+    cursor: pointer;
+  }
+
+  .design_left .design_button:hover {
+    background-color: orange;
+    color: #fff;
+  }
+
+  .designs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .design_right {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .design_right .img img {
+    height: 350px;
+    width: 300px;
+  }
+
+  /*design finish code*/
+
+  /*features code start*/
+  .features-header {
+    font-size: 22px;
+  }
+
+  .features-header span {
+    font-size: 22px;
+  }
+
+  .features-paragraph {
+    font-size: 14px;
+    width: 300px;
+  }
+
+  .features_img .imgg {
+    height: 400px;
+    width: 500px;
+  }
+
+  .features_button {
+    padding: 8px 28px;
+  }
+  /*features code finish*/
+
+  /*application code start*/
+
+  .rightPage .phone_img {
+    height: 300px;
+    width: 500px;
+  }
+
+  .left_page .application_header,
+  span {
+    font-size: 20px;
+  }
+
+  .propertiesOne .one {
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+  }
+
+  .properties_paragraph {
+    font-size: 12px;
+  }
+
+  .readMoreButton {
+    padding: 9px 23px;
+  }
+  /*application code finish*/
+
+  /*customer responsive start*/
+
+  .swiper-slide .container .customer_header,
+  span {
+    font-size: 26px;
+  }
+
+  .swiper-slide .container .customer_content {
+    font-size: 14px;
+  }
+
+  .swiper-slide .container .customer_paragraph {
+    font-size: 14px;
+  }
+
+  .swiper-slide .container .customer_paragraph::after {
+    width: 37px;
+    height: 37px;
+    bottom: -17px;
+  }
+
+  .customer_icon_tirnak .persons_img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  .customer_name_image .person_name {
+    font-size: 14px;
+  }
+
+  .customer_icon_tirnak .tirnak {
+    font-size: 180px;
+    color: white;
+    transform: translateY(-30px);
+  }
+
+  .spans span {
+    width: 17px;
+    height: 17px;
+    margin: 10px 2px 0 2px;
+  }
+
+  /*customer responsive finish*/
+
+  /*call responsive start*/
+  .container .call_header {
+    font-size: 25px;
+  }
+
+  .container .call_header span {
+    font-size: 25px;
+  }
+
+  .call_paragraph {
+    font-size: 14px;
+  }
+
+  .container .telephone_numberIcon i,
+  span {
+    font-size: 25px;
+  }
+  /*call responsive finish*/
+
+  /*footer responsive start*/
+  .container_footer .header {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .container_footer .footer_paragraph {
+    font-size: 12px;
+  }
+
+  .social_icons {
+    padding: 9px 11px;
+    font-size: 15px;
+    margin: 4px 8px;
+  }
+
+  /*footer responsive finish*/
+}
+
+@media screen and (max-width: 992px) {
+  /*features code start*/
+  .features-header {
+    font-size: 20px;
+  }
+
+  .features-header span {
+    font-size: 20px;
+  }
+
+  .features-paragraph {
+    font-size: 13px;
+  }
+
+  .features_img .imgg {
+    height: 350px;
+    width: 450px;
+  }
+
+  .features_button {
+    padding: 7px 25px;
+  }
+  /*features code finish*/
+
+  /*application code start*/
+
+  .rightPage .phone_img {
+    height: 250px;
+    width: 290px;
+  }
+
+  .left_page .application_header,
+  span {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .span_text {
+    font-size: 17px;
+  }
+
+  .oneText {
+    font-size: 13px;
+  }
+  .propertiesOne .one {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+  }
+
+  .properties_paragraph {
+    font-size: 10px;
+  }
+
+  .readMoreButton {
+    padding: 8px 17px;
+    font-size: 12px;
+  }
+  /*application code finish*/
+
+  /*customer responsive start*/
+
+  .swiper-slide .container .customer_header,
+  span {
+    font-size: 23px;
+  }
+
+  .swiper-slide .container .customer_content {
+    font-size: 13px;
+  }
+
+  .swiper-slide .container .customer_paragraph {
+    font-size: 13px;
+  }
+
+  .customer_icon_tirnak .persons_img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .customer_name_image .person_name {
+    font-size: 13px;
+  }
+
+  .customer_icon_tirnak .tirnak {
+    font-size: 160px;
+
+    transform: translateY(-30px);
+  }
+
+  .spans span {
+    width: 14px;
+    height: 14px;
+  }
+
+  /*customer responsive finish*/
+
+  /*call responsive start*/
+  .container .call_header {
+    font-size: 22px;
+  }
+
+  .container .call_header span {
+    font-size: 22px;
+  }
+
+  .call_paragraph {
+    font-size: 13px;
+  }
+
+  .container .telephone_numberIcon i,
+  span {
+    font-size: 22px;
+  }
+  /*call responsive finish*/
+
+  /*footer responsive start*/
+  .container_footer .header {
+    font-size: 19px;
+  }
+
+  .container_footer .footer_paragraph {
+    font-size: 11px;
+  }
+
+  .social_icons {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+  /*footer responsive finish*/
+}
+
+@media screen and (max-width: 768px) {
+  /*features code start*/
+  .features-header {
+    font-size: 18px;
+  }
+
+  .features-header span {
+    font-size: 18px;
+  }
+
+  .features-paragraph {
+    font-size: 12px;
+  }
+
+  .features_img .imgg {
+    height: 330px;
+    width: 430px;
+    margin-bottom: 20px;
+  }
+
+  .features_button {
+    padding: 6px 18px;
+    font-size: 14px;
+  }
+  /*features code finish*/
+
+  .pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  /*application code start*/
+
+  .rightPage .phone_img {
+    height: 270px;
+    width: 310px;
+  }
+
+  .properties {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .left_page {
+    margin-bottom: 40px;
+  }
+
+  .left_page .application_header,
+  span {
+    font-size: 17px;
+  }
+
+  .span_text {
+    font-size: 16px;
+  }
+  .oneText {
+    font-size: 12px;
+  }
+  .propertiesOne .one {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+  }
+  .properties_paragraph {
+    font-size: 12px;
+  }
+  .readMoreButton {
+    padding: 8px 14px;
+    font-size: 10px;
+  }
+  /*application code finish*/
+  .swiper-slide .container .customer_header,
+  span {
+    font-size: 21px;
+  }
+
+  .swiper-slide .container .customer_content {
+    font-size: 12px;
+  }
+
+  .swiper-slide .container .customer_paragraph {
+    font-size: 12px;
+  }
+
+  .customer_icon_tirnak .persons_img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .customer_name_image .person_name {
+    font-size: 12px;
+  }
+
+  .customer_icon_tirnak .tirnak {
+    font-size: 140px;
+
+    transform: translateY(-35px);
+  }
+
+  .spans span {
+    width: 13px;
+    height: 13px;
+  }
+
+  /*call responsive start*/
+  .container .call_header {
+    font-size: 19px;
+  }
+
+  .container .call_header span {
+    font-size: 19px;
+  }
+
+  .call_paragraph {
+    font-size: 12px;
+  }
+
+  .container .telephone_numberIcon i,
+  span {
+    font-size: 19px;
+  }
+  /*call responsive finish*/
+
+  /*footer responsive start*/
+  .container_footer .header {
+    font-size: 17px;
+  }
+
+  .container_footer .footer_paragraph {
+    font-size: 10px;
+  }
+
+  .social_icons {
+    padding: 7px 9px;
+    font-size: 13px;
+  }
+  /*footer responsive finish*/
+}
+
+@media screen and (max-width: 576px) {
+  /*design code start*/
+
+  .design_left h3,
+  h5,
+  h4 {
+    margin-bottom: 30px;
+  }
+
+  .design_right {
+    height: 340px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .design_right .img img {
+    height: 300px;
+    width: 280px;
+  }
+
+  .application_design1 {
+    background-color: rgb(0, 0, 74);
+    height: 700px;
+    margin-bottom: 200px;
+  }
+
+  .design_left h3 {
+    font-size: 20px;
+  }
+
+  .design_left h5 {
+    font-size: 17px;
+  }
+
+  .design_left h4 {
+    font-size: 16px;
+  }
+  /*design code finish*/
+
+  /*features code start*/
+  .features-header {
+    font-size: 16px;
+  }
+
+  .features-header span {
+    font-size: 16px;
+  }
+
+  .features-paragraph {
+    font-size: 11px;
+  }
+
+  .features_img .imgg {
+    height: 320px;
+    width: 400px;
+    margin-bottom: 20px;
+  }
+
+  .features_button {
+    padding: 5px 15px;
+    font-size: 12px;
+  }
+  /*features code finish*/
+
+  /*application code start*/
+
+  .rightPage .phone_img {
+    height: 250px;
+    width: 270px;
+  }
+
+  .left_page .application_header,
+  span {
+    font-size: 15px;
+  }
+
+  .span_text {
+    font-size: 14px;
+  }
+
+  .oneText {
+    font-size: 11px;
+  }
+  .propertiesOne .one {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .properties_paragraph {
+    font-size: 11px;
+  }
+  .readMoreButton {
+    padding: 7px 12px;
+    font-size: 8px;
+  }
+  /*application code finish*/
+
+  .customer .container .customer_header,
+  span {
+    font-size: 18px;
+  }
+
+  .customer .container .customer_content {
+    font-size: 11px;
+  }
+
+  .customer .container .customer_paragraph {
+    font-size: 11px;
+  }
+
+  .customer_icon_tirnak .persons_img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .customer_name_image .person_name {
+    font-size: 11px;
+  }
+
+  .customer_icon_tirnak .tirnak {
+    font-size: 130px;
+
+    transform: translateY(-40px);
+  }
+
+  .spans span {
+    width: 12px;
+    height: 12px;
+  }
+
+  /*call responsive start*/
+  .container .call_header {
+    font-size: 17px;
+  }
+
+  .container .call_header span {
+    font-size: 17px;
+  }
+
+  .call_paragraph {
+    font-size: 11px;
+  }
+  .container .telephone_numberIcon {
+    width: 400px;
+  }
+  .container .telephone_numberIcon i,
+  span {
+    font-size: 17px;
+  }
+  /*call responsive finish*/
+
+  /*footer responsive start*/
+  .container_footer .header {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  /*footer responsive finish*/
+
+  /*copyright responsive start code*/
+  .copyright_text {
+    font-size: 11px;
+    color: rgb(58, 58, 58);
+    font-weight: 400;
+  }
+  /*copyright responsive finish code*/
+}
+/*responsice code finish*/
